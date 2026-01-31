@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Flashcards</title>
+</head>
+<body>
+
+  <h1>Study Flashcards</h1>
+
+  <div class="controls">
+    <input type="text" id="frontInput" placeholder="Front of card" />
+    <input type="text" id="backInput" placeholder="Back of card" />
+    <button onclick="addCard()">Add Card</button>
+  </div>
+
+  <div class="card-counter" id="cardCounter"></div>
+
+  <div class="viewer">
+    <button class="nav-btn" onclick="prevCard()" id="prevBtn">◀</button>
+    <div class="card" id="activeCard"></div>
+    <button class="nav-btn" onclick="nextCard()" id="nextBtn">▶</button>
+  </div>
+
+</body>
+</html>
